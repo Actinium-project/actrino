@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Actinium-project/acmlog"
+	"github.com/btcsuite/btclog"
 	"github.com/Actinium-project/acmd/btcec"
 	"github.com/Actinium-project/acmd/acmjson"
 	"github.com/Actinium-project/acmd/chaincfg"

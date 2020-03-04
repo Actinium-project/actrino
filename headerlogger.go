@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Actinium-project/acmlog"
+	"github.com/btcsuite/btclog"
 )
 
 // headerProgressLogger provides periodic logging for other services in order

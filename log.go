@@ -1,7 +1,7 @@
 package actrino
 
 import (
-	"github.com/Actinium-project/acmlog"
+	"github.com/btcsuite/btclog"
 	"github.com/Actinium-project/acmd/addrmgr"
 	"github.com/Actinium-project/acmd/blockchain"
 	"github.com/Actinium-project/acmd/connmgr"
