@@ -12,7 +12,7 @@ import (
 	"github.com/Actinium-project/acmutil/gcs"
 	"github.com/Actinium-project/acmutil/gcs/builder"
 	"github.com/Actinium-project/acmwallet/walletdb"
-	"github.com/Actinium-project/actrino/headerfs"
+	"github.com/Actinium-project/actrino/headerfs/"
 )
 
 func decodeHashNoError(str string) *chainhash.Hash {
@@ -413,7 +413,7 @@ func heightToHeader(height uint32) *wire.BlockHeader {
 }
 
 func runCheckCFCheckptSanityTestCase(t *testing.T, testCase *cfCheckptTestCase) {
-	tempDir, err := ioutil.TempDir("", "actrino")
+	tempDir, err := ioutil.TempDir("", "neutrino")
 	if err != nil {
 		t.Fatalf("Failed to create temporary directory: %s", err)
 	}
