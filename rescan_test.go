@@ -17,8 +17,8 @@ import (
 	"github.com/Actinium-project/acmutil"
 	"github.com/Actinium-project/acmutil/gcs"
 	"github.com/Actinium-project/acmutil/gcs/builder"
-	"github.com/Actinium-project/neutrino/blockntfns"
-	"github.com/Actinium-project/neutrino/headerfs"
+	"github.com/Actinium-project/actrino/blockntfns"
+	"github.com/Actinium-project/actrino/headerfs"
 )
 
 // mockChainSource is a mock implementation of the ChainSource interface that

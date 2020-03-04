@@ -10,7 +10,7 @@ import (
 
 	"github.com/Actinium-project/acmwallet/walletdb"
 	_ "github.com/Actinium-project/acmwallet/walletdb/bdb"
-	"github.com/Actinium-project/neutrino/banman"
+	"github.com/Actinium-project/actrino/banman"
 )
 
 // createTestBanStore creates a test Store backed by a boltdb instance.

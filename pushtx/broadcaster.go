@@ -9,7 +9,7 @@ import (
 	"github.com/Actinium-project/acmd/chaincfg/chainhash"
 	"github.com/Actinium-project/acmd/wire"
 	"github.com/Actinium-project/acmwallet/wtxmgr"
-	"github.com/Actinium-project/neutrino/blockntfns"
+	"github.com/Actinium-project/actrino/blockntfns"
 )
 
 var (

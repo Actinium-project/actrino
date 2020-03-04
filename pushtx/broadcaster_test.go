@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/Actinium-project/acmd/wire"
-	"github.com/Actinium-project/neutrino/blockntfns"
+	"github.com/Actinium-project/actrino/blockntfns"
 )
 
 // createTx is a helper method to create random transactions that spend

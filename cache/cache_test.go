@@ -8,9 +8,9 @@ import (
 	"github.com/Actinium-project/acmd/wire"
 	"github.com/Actinium-project/acmutil"
 	"github.com/Actinium-project/acmutil/gcs"
-	"github.com/Actinium-project/neutrino/cache"
-	"github.com/Actinium-project/neutrino/cache/lru"
-	"github.com/Actinium-project/neutrino/filterdb"
+	"github.com/Actinium-project/actrino/cache"
+	"github.com/Actinium-project/actrino/cache/lru"
+	"github.com/Actinium-project/actrino/filterdb"
 )
 
 // TestBlockFilterCaches tests that we can put and retrieve elements from all

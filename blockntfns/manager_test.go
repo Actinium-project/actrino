@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/Actinium-project/acmd/wire"
-	"github.com/Actinium-project/neutrino/blockntfns"
+	"github.com/Actinium-project/actrino/blockntfns"
 )
 
 var emptyHeader wire.BlockHeader

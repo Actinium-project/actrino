@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/Actinium-project/acmd/wire"
-	"github.com/Actinium-project/neutrino/pushtx"
+	"github.com/Actinium-project/actrino/pushtx"
 )
 
 // TestParseBroadcastErrorCode ensures that we properly construct a
